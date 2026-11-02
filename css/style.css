@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#search,#name,#email,#city,#phone{
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin: 2px auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#users {
+    max-width: 900px;
+    margin: auto;
+}
+
+.user-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.user-card:hover{
+    background:#4f46e5;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.user-card h3 {
+    margin-top: 0;
+}
+
+.actions {
+    margin-top: 15px;
+}
+
+.actions button {
+    padding: 8px 14px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: #9591e2;
+    color: white;
+}
+
+.delete-btn {
+    background: #dc2626;
+    color: white;
+}
+
+
+#searchbtn,#addbtn{
+    display: block;
+    width: 100px;
+    padding: 5px;
+    margin: 2px auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    
+}
+#addbtn{
+    background-color: green;
+}
+#addbtn:hover,#searchbtn:hover,.delete-btn:hover,.edit-btn:hover{
+    scale:1.1;
+    transition: 0.5s ease-out;
+}
+#title{
+    text-align: center;
+}
